@@ -1,4 +1,4 @@
-for evn import BOTKEY,CHATID
+from evn import BOTKEY,CHATID
 from stat import UF_IMMUTABLE
 from aiogram import Bot, Dispatcher, types, executor
 import asyncio
