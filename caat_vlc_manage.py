@@ -4,10 +4,7 @@ from aiogram import Bot, Dispatcher, types, executor
 import asyncio
 import dbus
 
-
-BOT_TOKEN = BOTKEY
-
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=BOTKEY)
 dp = Dispatcher(bot=bot)
 
 sysbus = dbus.SystemBus()
